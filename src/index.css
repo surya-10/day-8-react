@@ -11,3 +11,135 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.base-div{
+  background-color: darkslateblue;
+  height: 120px;
+}
+.base-div button{
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.base-div button:hover{
+  background-color: black;
+  color: white;
+}
+
+.dash-div h3{
+  margin: 20px;
+}
+.student{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(115, 18, 156);
+  padding: 20px;
+  color: white;
+  gap: 10px;
+  text-transform: uppercase;
+  width: 300px;
+  align-items: center;
+  border-radius: 10px;
+}
+.all{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+.btn-div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.add-stu-div{
+  border: 1px solid rosybrown;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+  margin: 0 auto;
+
+}
+input{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  /* border-radius: 10px; */
+  outline: none;
+  border-bottom: 0.5px solid pink;
+  font-size: 15px;
+}
+.add-stu-div h3{
+  text-transform: uppercase;
+  background-color: lightslategray;
+  color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  
+}
+input:focus{
+  /* background-color: gray;
+  color: whitesmoke; */
+  border-radius: 10px;
+}
+.add{
+  padding: 20px;
+  margin: 10px;
+  color: rgb(204, 245, 245);
+  background-color:darkblue;
+}
+.add-stu-div button:hover{
+  background-color: green;
+  color: white;
+}
+.update-btn button{
+  margin: 10px;
+}
+.compdiv{
+  margin-top: 20px;
+}
+.base div h4{
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+}
