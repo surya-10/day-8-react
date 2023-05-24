@@ -138,8 +138,32 @@ input:focus{
 .compdiv{
   margin-top: 20px;
 }
-.base div h4{
+.base h4{
   color: white;
   font-size: 30px;
   text-transform: uppercase;
+}
+@media only screen and (max-width:500px){
+  .base h4{
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .base-div button{
+    font-size: 10px;
+    padding: 9px;
+  }
+  .inputs{
+    width: 100%;
+  }
+  input{
+    width: 90%;
+    font-size: 10px;
+  }
+  .add-stu-div h3{
+    font-size: 10px;
+    width: 90%;
+
+  }
+
 }
